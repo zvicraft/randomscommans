@@ -1,0 +1,15 @@
+name: randomscommans
+version: '${project.version}'
+main: com.zvicraft.randomscommans.Randomscommans
+api-version: '1.19'
+description: hi
+commands:
+  reloadconf:
+    description: reload config
+    usage: /reloadconf
+    aliases: [reconfig, reloadconf]
+
+  random:
+    description: random mssge
+    usage: /random
+    aliases: [rand, random]
